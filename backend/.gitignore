@@ -39,9 +39,6 @@ datasets/
 delta_lake/
 lakehouse/
 
-# Ignore uploaded project data
-uploads/project_*/
-
 # ==============================
 # Logs
 # ==============================

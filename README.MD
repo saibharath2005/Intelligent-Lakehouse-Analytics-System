@@ -511,13 +511,13 @@ echo %HADOOP_HOME%
 cd backend
 
 # Create virtual environment
-python -m venv env
+python -m venv lakehouse
 
 # Activate — Windows
-env\Scripts\activate
+lakehouse\Scripts\activate
 
 # Activate — Linux / Mac
-source env/bin/activate
+source lakehouse/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
