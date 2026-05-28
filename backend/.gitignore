@@ -1,0 +1,109 @@
+.commands
+data_lake/*
+!data_lake/.gitkeep
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================
+# Database Files
+# ==============================
+*.db
+*.sqlite3
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# ==============================
+# Uploads / Generated Data
+# ==============================
+datasets/
+delta_lake/
+lakehouse/
+
+# Ignore uploaded project data
+uploads/project_*/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Pytest / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Spark / Hadoop Temp Files
+# ==============================
+metastore_db/
+spark-warehouse/
+derby.log
+
+# ==============================
+# Cache Files
+# ==============================
+.cache/
+temp/
+tmp/
+
+# ==============================
+# AI / Model Cache
+# ==============================
+models/
+checkpoints/
+
+# ==============================
+# Secrets
+# ==============================
+secrets.json
+credentials.json
+service-account.json
+
+# ==============================
+# Misc
+# ==============================
+commands.txt
+*.bak
+*.tmp

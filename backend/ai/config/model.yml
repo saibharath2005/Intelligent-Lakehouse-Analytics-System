@@ -1,0 +1,3 @@
+provider: gemini   # openai | gemini | local
+model_name: gemini-flash-lite-latest
+temperature: 0.2

@@ -1,0 +1,28 @@
+fastapi
+uvicorn
+pyspark==3.5.1
+deltalake== 1.5.0 
+delta-spark==3.2.0
+sqlalchemy==2.0.45
+duckdb==1.5.1
+duckdb-engine
+passlib==1.7.4 
+bcrypt==4.0.1
+python-jose
+pyarrow== 23.0.1
+pytest
+langchain
+langchain-core
+langchain-openai
+langchain-google-genai
+langchain-community
+openai
+google-generativeai
+pyyaml
+pandas
+polars==1.39.3
+psycopg2-binary
+email-validator
+python-multipart
+cryptography
+setuptools==68.0.0
